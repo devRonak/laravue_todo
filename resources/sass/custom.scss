@@ -1,0 +1,15 @@
+.todo_input_container{
+    margin-top: 80px;
+    //margin-bottom: 80px;
+}
+.todo_area{
+    margin: 40px 0;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        .check{
+           text-decoration: line-through;
+        }
+    }
+}

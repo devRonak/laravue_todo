@@ -15,4 +15,8 @@
 //    return view('welcome');
 //});
 
-Route::get('/{any}', 'SinglePageController@index')->where('any', '.*');
+//Route::get('/{any}', 'SinglePageController@index')->where('any', '.*');
+
+Route::get('/','SinglePageController@index');
+
+Route::post('/add','toDoController@index');

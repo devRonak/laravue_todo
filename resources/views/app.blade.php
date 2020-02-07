@@ -12,7 +12,6 @@
     <title>{{ config('app.name', 'Laravue Todo') }}</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/./styles/jqx.base.css"/>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <script src="https://kit.fontawesome.com/be72a78470.js" crossorigin="anonymous"></script>
 </head>
